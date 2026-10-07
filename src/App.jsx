@@ -49,8 +49,7 @@ export default function App() {
           </div>
         </Reveal>
         <Reveal className="hero-portrait" delay={.08}>
-          <div className="portrait-frame"><img src="/img/julliete-perfil.jpg" alt="Julliete, psicóloga"/></div>
-          <p className="portrait-values"><em>presença</em><span>escuta</span><span>encontro</span></p>
+          <div className="hero-editorial-image"><img src="/img/julliete-quem-sou-eu.jpg" alt="Arte de apresentação de Julliete Psicóloga"/><span className="image-accent" aria-hidden="true"/></div>
         </Reveal>
       </section>
 
@@ -83,9 +82,9 @@ export default function App() {
 
       <section className="about" id="sobre">
         <div className="about-layout">
-          <Reveal className="about-art"><img src="/img/julliete-quem-sou-eu.jpg" alt="Arte Quem sou eu de Julliete Psicóloga"/></Reveal>
+          <Reveal className="about-art graduation-art"><img src="/img/julliete-formatura.jpg" alt="Julliete em sua formatura"/></Reveal>
           <div className="about-content">
-            <Reveal className="about-heading"><p className="eyebrow">Quem sou eu</p><h2>Ei, eu sou a <em>Julliete.</em></h2><p className="about-intro">Busco, com meu trabalho, auxiliar quem me procura a caminhar pela própria vida de forma mais consciente e amorosa consigo.</p></Reveal>
+            <Reveal className="about-heading"><p className="eyebrow">Quem sou eu</p><h2>Olá, eu sou a <em>Julliete.</em></h2><p className="about-intro">Busco, com meu trabalho, auxiliar quem me procura a caminhar pela própria vida de forma mais consciente e amorosa consigo.</p></Reveal>
             <Reveal className="about-story">
               <p>Sou psicóloga clínica, formada em 2018 pela FUMEC, com colação de grau em fevereiro de 2019.</p>
               <p>Em 2020, iniciei minha formação em Gestalt-terapia no Instituto Carioca de Gestalt Terapia. Em 2021, comecei a especialização na UFMG e, em 2022, tornei-me especialista em <strong>Psicologia Clínica: Gestalt-terapia e Análise Existencial.</strong></p>
