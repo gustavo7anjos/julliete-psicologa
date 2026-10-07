@@ -49,8 +49,8 @@ export default function App() {
           </div>
         </Reveal>
         <Reveal className="hero-portrait" delay={.08}>
-          <div className="portrait-frame"><img src="/img/julliete-perfil.jpg" alt="Julliete, psicóloga"/><Leaf className="portrait-leaf"/></div>
-          <p><em>presença</em> · escuta · encontro</p>
+          <div className="portrait-frame"><img src="/img/julliete-perfil.jpg" alt="Julliete, psicóloga"/></div>
+          <p className="portrait-values"><em>presença</em><span>escuta</span><span>encontro</span></p>
         </Reveal>
       </section>
 
@@ -65,7 +65,6 @@ export default function App() {
       <section className="gestalt section" id="gestalt">
         <Reveal className="section-heading"><p className="eyebrow">Gestalt-terapia</p><h2>Olhar para si com mais <em>presença.</em></h2></Reveal>
         <Reveal className="section-copy"><p>Na Gestalt-terapia, a pessoa é compreendida em sua totalidade: sua história, seu contexto, suas relações e aquilo que acontece no presente.</p><p>O processo abre espaço para perceber como você se relaciona consigo, com outras pessoas e com o mundo — ampliando consciência e possibilidades de escolha.</p><div className="perls">“Você é você, e eu sou eu.” <span>— Fritz Perls</span></div></Reveal>
-        <Leaf className="section-leaf"/>
       </section>
 
       <section className="reflections">
@@ -100,7 +99,7 @@ export default function App() {
           <div className="timeline-item"><span>2021–22</span><p>Especialização na UFMG em Psicologia Clínica: Gestalt-terapia e Análise Existencial.</p></div>
           <div className="timeline-item"><span>2023</span><p>Início da pós-graduação em Psicologia do Esporte pelo Futebol Interativo.</p></div>
         </Reveal>
-        <Reveal className="about-footer"><Leaf/><span>Psicóloga · CRP 04/54451</span></Reveal>
+        <Reveal className="about-footer"><span>Psicóloga · CRP 04/54451</span></Reveal>
       </section>
 
       <section className="contact"><Reveal><p className="eyebrow">Primeiro contato</p><h2>Talvez começar seja <em>simplesmente conversar.</em></h2><p>Se fizer sentido conhecer melhor o meu trabalho, podemos começar por uma conversa.</p><div className="contact-actions"><a className="button light" href={whatsapp} target="_blank" rel="noreferrer"><MessageCircle size={16}/> Conversar pelo WhatsApp</a><a className="quiet-link light-link" href={instagram} target="_blank" rel="noreferrer"><Instagram size={16}/> @jullietepsi</a></div></Reveal></section>
