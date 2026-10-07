@@ -50,13 +50,12 @@ function App() {
               <a className="text-link" href="#terapia">Conheça esse espaço <ArrowDown size={17}/></a>
             </div>
           </Reveal>
-          <Reveal className="hero-visual editorial-hero" delay={.08}>
-            <div className="editorial-orbit" aria-hidden="true"></div>
-            <div className="editorial-card">
-              <span>presença · escuta · encontro</span>
-              <p>“Acolha-se.”</p>
-              <small>Julliete Psicóloga · CRP 04/54451</small>
+          <Reveal className="hero-visual portrait-hero" delay={.08}>
+            <div className="portrait-shape" aria-hidden="true"></div>
+            <div className="portrait-wrap">
+              <img src="/img/julliete-hero%201%20.jpg" alt="Retrato de Julliete Psicóloga" />
             </div>
+            <div className="portrait-signature"><strong>Julliete</strong><span>Psicóloga · CRP 04/54451</span></div>
           </Reveal>
         </section>
 
