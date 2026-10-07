@@ -143,3 +143,8 @@ footer{padding:38px max(24px,calc((100vw - 1160px)/2)) 25px;display:grid;grid-te
 .graduation-art:before{inset:18px -18px -18px 18px;border-color:rgba(113,48,57,.28)}
 .graduation-art img{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:center}
 @media(max-width:760px){.hero-editorial-image{width:min(88vw,390px);margin:auto;padding:8px;transform:rotate(.5deg)}.hero-editorial-image:before,.hero-editorial-image:after{width:48px;height:48px}.graduation-art{width:min(84vw,390px)}}
+
+
+/* More breathing room between section titles and body copy */
+.sport .section-copy h2{margin-bottom:24px}
+@media(max-width:760px){.sport .section-copy h2{margin-bottom:20px}}
