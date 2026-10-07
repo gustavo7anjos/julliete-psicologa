@@ -131,3 +131,15 @@ footer{padding:38px max(24px,calc((100vw - 1160px)/2)) 25px;display:grid;grid-te
 .portrait-values span:before{content:"·";margin-right:10px;color:var(--rust);font-style:normal}
 .about-footer{gap:0}
 @media(max-width:760px){.hero-portrait{width:min(86vw,350px)}.portrait-frame{padding:9px}.portrait-frame img{border-width:4px;transform:scale(1.09)}.portrait-values{gap:8px;font-size:.9rem}.portrait-values em,.portrait-values span{font-size:.92rem}.portrait-values span:before{margin-right:8px}}
+
+
+/* Editorial image swap: presentation artwork in hero, graduation portrait in about */
+.hero-editorial-image{position:relative;padding:12px;background:var(--cream);transform:rotate(1deg);box-shadow:0 18px 45px rgba(80,53,47,.08)}
+.hero-editorial-image:before{content:"";position:absolute;top:-13px;left:-13px;width:64px;height:64px;border-top:1px solid var(--rust);border-left:1px solid var(--rust)}
+.hero-editorial-image:after{content:"";position:absolute;right:-13px;bottom:-13px;width:64px;height:64px;border-right:1px solid var(--rust);border-bottom:1px solid var(--rust)}
+.hero-editorial-image img{position:relative;z-index:2;width:100%;height:auto;object-fit:contain;background:#fffdf8}
+.image-accent{position:absolute;z-index:3;right:-18px;top:28px;width:46px;height:1px;background:var(--wine);transform:rotate(-18deg)}
+.graduation-art{max-width:430px;padding:10px;background:var(--rust);transform:rotate(-1deg)}
+.graduation-art:before{inset:18px -18px -18px 18px;border-color:rgba(113,48,57,.28)}
+.graduation-art img{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:center}
+@media(max-width:760px){.hero-editorial-image{width:min(88vw,390px);margin:auto;padding:8px;transform:rotate(.5deg)}.hero-editorial-image:before,.hero-editorial-image:after{width:48px;height:48px}.graduation-art{width:min(84vw,390px)}}
