@@ -1,55 +1,27 @@
-# Julliete Psicóloga
+# Julliete Psicóloga — V2
 
-Site profissional desenvolvido para apresentar o trabalho, a trajetória e as áreas de atuação da psicóloga Julliete.
+Site profissional de Julliete Psicóloga (CRP 04/54451), reconstruído com foco em acolhimento, conteúdo, identidade visual e experiência mobile.
 
-## Sobre o projeto
+## Stack
+- React 19
+- Vite
+- Framer Motion
+- Lucide React
+- CSS responsivo próprio
 
-O projeto foi desenvolvido como parte da disciplina de Front-end e também pensado para utilização como um site profissional real.
+## Direção da V2
+A página deixa de funcionar como uma apresentação curricular extensa e passa a apresentar primeiro a experiência de quem chega ao site: psicoterapia, acolhimento, Gestalt-terapia, conteúdos e contato. A biografia profissional permanece concentrada na seção “Quem sou eu”.
 
-A interface foi criada a partir da identidade visual utilizada pela profissional, com uma proposta editorial, acolhedora e responsiva.
+## Desenvolvimento
+```bash
+npm install
+npm run dev
+```
 
-## Áreas apresentadas
+Build de produção:
+```bash
+npm run build
+```
 
-- Psicoterapia
-- Gestalt-terapia
-- Psicologia do Esporte
-
-## Tecnologias utilizadas
-
-- HTML5
-- CSS3
-- JavaScript
-- Bootstrap 5
-- Bootstrap Icons
-- Google Fonts
-
-## Funcionalidades
-
-- Layout responsivo
-- Menu de navegação
-- Navegação por seções
-- Animações durante a rolagem
-- FAQ interativo
-- Botão de voltar ao topo
-- Integração com WhatsApp
-- Integração com Instagram
-- Linha do tempo profissional
-- Menu adaptado para dispositivos móveis
-
-## Estrutura do projeto
-
-```text
-julliete-psicologa/
-├── index.html
-├── README.md
-├── css/
-│   └── style.css
-├── js/
-│   └── script.js
-├── img/
-│   ├── julliete-hero.jpg
-│   ├── julliete-quem-sou-eu.jpg
-│   ├── julliete-esporte.jpg
-│   └── julliete-trajetoria.jpg
-└── docs/
-    └── documentacao.md
+## Branch
+A reconstrução está sendo desenvolvida em `v2-profissional`. A versão acadêmica original permanece preservada na `main` até aprovação da V2.
