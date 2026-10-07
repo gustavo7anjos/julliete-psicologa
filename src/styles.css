@@ -94,3 +94,16 @@ footer{padding:38px max(24px,calc((100vw - 1160px)/2)) 25px;display:grid;grid-te
 
 @media(max-width:900px){.about-layout{grid-template-columns:.65fr 1fr;gap:45px}}
 @media(max-width:760px){.brand{gap:8px}.monogram.small{width:31px;height:31px;font-size:1rem}.brand-copy strong{font-size:1.28rem}.brand-copy small{font-size:.43rem}.about-layout{grid-template-columns:1fr;gap:40px}.about-art{width:min(86vw,390px);margin:auto}.about-story p{font-size:.9rem}.footer-brand .brand-copy strong{font-size:1.45rem}.footer-social{order:2}.copyright{order:3}}
+
+
+/* Visual polish: closer to the warm original identity and stronger desktop navigation */
+:root{--paper:#fff8e7;--paper-2:#f7ead6;--cream:#f8df76;--rust:#b95638;--wine:#733039;--dark:#51282b;--brown:#50352f;--green:#66705a;--text:#44332f;--muted:#75625a}
+.site-header{height:80px;background:rgba(255,248,231,.95)}
+.nav{gap:30px;font-size:.82rem;font-weight:500}.nav-contact{padding:10px 17px}
+.brand-copy strong{font-size:1.62rem}.brand-copy small{font-size:.53rem}
+.eyebrow{font-size:.7rem}
+.hero{padding-top:72px}.button{transition:transform .22s ease,box-shadow .22s ease,background .22s ease}.button:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(81,40,43,.15)}
+.quiet-link{transition:color .2s ease,border-color .2s ease}.quiet-link:hover{color:var(--rust);border-color:var(--rust)}
+.reflection-main,.sport-signature:after,.portrait-frame:before{filter:saturate(1.08)}
+@media(min-width:901px){.nav a:not(.nav-contact){position:relative}.nav a:not(.nav-contact):after{content:"";position:absolute;left:0;right:100%;bottom:-7px;height:1px;background:var(--rust);transition:right .25s ease}.nav a:not(.nav-contact):hover:after{right:0}}
+@media(max-width:760px){.site-header{height:68px}.nav{inset:68px 0 auto;font-size:.8rem}.brand-copy strong{font-size:1.3rem}.eyebrow{font-size:.64rem}}
