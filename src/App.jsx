@@ -50,9 +50,13 @@ function App() {
               <a className="text-link" href="#terapia">Conheça esse espaço <ArrowDown size={17}/></a>
             </div>
           </Reveal>
-          <Reveal className="hero-visual" delay={.08}>
-            <div className="photo-frame"><img src="/img/julliete-hero.jpg" alt="Retrato de Julliete" /></div>
-            <p className="photo-note">Julliete Psicóloga<br/><span>CRP 04/54451</span></p>
+          <Reveal className="hero-visual editorial-hero" delay={.08}>
+            <div className="editorial-orbit" aria-hidden="true"></div>
+            <div className="editorial-card">
+              <span>presença · escuta · encontro</span>
+              <p>“Acolha-se.”</p>
+              <small>Julliete Psicóloga · CRP 04/54451</small>
+            </div>
           </Reveal>
         </section>
 
@@ -108,7 +112,11 @@ function App() {
         </section>
 
         <section className="sport" id="esporte">
-          <Reveal className="sport-image"><img src="/img/julliete-esporte.jpg" alt="Julliete em um ambiente artístico" /><span>corpo · presença · movimento</span></Reveal>
+          <Reveal className="sport-art" aria-hidden="true">
+            <span className="sport-word">movimento</span>
+            <div className="sport-circle"></div>
+            <p>corpo<br/>presença<br/>movimento</p>
+          </Reveal>
           <Reveal className="sport-copy">
             <p className="eyebrow">Psicologia & esporte</p>
             <h2>Um encontro entre psicologia e uma história que começou <em>muito antes.</em></h2>
@@ -138,7 +146,7 @@ function App() {
             <p>Meu trabalho busca auxiliar quem me procura a caminhar pela própria vida de forma mais consciente e amorosa consigo.</p>
             <div className="credential">Psicóloga · CRP 04/54451</div>
           </Reveal>
-          <Reveal className="about-image"><img src="/img/julliete-trajetoria.jpg" alt="Julliete em um espaço de arte" /><div className="image-caption">Psicologia construída no encontro.</div></Reveal>
+          <Reveal className="about-image authorized-art"><img src="/img/julliete-quem-sou-eu.jpg" alt="Arte Quem sou eu de Julliete Psicóloga" /><div className="image-caption">Psicologia construída no encontro.</div></Reveal>
         </section>
 
         <section className="contact" id="contato">
