@@ -40,7 +40,7 @@ export default function App() {
       <section className="hero" id="inicio">
         <div className="hero-decoration" aria-hidden="true"/>
         <Reveal className="hero-copy">
-          <p className="eyebrow">Psicologia clínica · Gestalt-terapia · Psicologia do esporte</p>
+          <p className="eyebrow">Psicologia · Gestalt-terapia · Psicologia do esporte</p>
           <h1>Psicoterapia como espaço de <em>encontro, consciência e cuidado.</em></h1>
           <p className="lead">Nem sempre é preciso chegar com tudo organizado. Aqui, há espaço para olhar com mais calma para o que você vive, sente e escolhe.</p>
           <div className="hero-actions">
