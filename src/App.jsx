@@ -10,8 +10,6 @@ function Reveal({ children, className = "", delay = 0 }) {
   return <motion.div className={className} initial={reduce ? false : { opacity: 0, y: 14 }} whileInView={reduce ? {} : { opacity: 1, y: 0 }} viewport={{ once: true, amount: .18 }} transition={{ duration: .5, delay, ease: [.22,1,.36,1] }}>{children}</motion.div>;
 }
 function Leaf({ className = "" }) { return <span className={`leaf ${className}`} aria-hidden="true"><i/><i/><i/></span>; }
-function Monogram({ small = false }) { return <span className={small ? "monogram small" : "monogram"} aria-hidden="true"><span>J</span><i/></span>; }
-
 export default function App() {
   const [menu, setMenu] = useState(false);
   useEffect(() => {
@@ -23,7 +21,6 @@ export default function App() {
   return <>
     <header className="site-header">
       <a className="brand" href="#inicio">
-        <Monogram small/>
         <span className="brand-copy"><strong>Julliete</strong><small>Psicóloga · CRP 04/54451</small></span>
       </a>
       <nav className={menu ? "nav open" : "nav"}>
@@ -105,7 +102,7 @@ export default function App() {
     </main>
 
     <footer>
-      <div className="footer-brand"><Monogram small/><span className="brand-copy"><strong>Julliete</strong><small>Psicóloga · CRP 04/54451</small></span></div>
+      <div className="footer-brand"><span className="brand-copy"><strong>Julliete</strong><small>Psicóloga · CRP 04/54451</small></span></div>
       <div className="footer-social">
         <a href={instagram} target="_blank" rel="noreferrer" aria-label="Instagram"><Instagram size={18}/></a>
         <a href={whatsapp} target="_blank" rel="noreferrer" aria-label="WhatsApp"><MessageCircle size={18}/></a>
