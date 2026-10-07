@@ -27,3 +27,15 @@
 .authorized-art img{height:auto;max-height:none;object-fit:contain;background:var(--cream)}
 @media(max-width:900px){.editorial-hero{min-height:520px}.sport-art{min-height:520px;width:min(92%,570px);margin:auto}}
 @media(max-width:760px){.editorial-hero{min-height:460px;width:100%}.editorial-orbit{width:82vw}.editorial-card{transform:none}.editorial-card p{margin:58px 0}.sport-art{min-height:450px;width:100%}.sport-word{font-size:3rem}.authorized-art{width:100%}.authorized-art img{height:auto;min-height:0}}
+
+/* Retrato autorizado */
+.portrait-hero{position:relative;display:grid;place-items:center;min-height:min(66vh,690px);isolation:isolate}
+.portrait-shape{position:absolute;width:min(37vw,500px);aspect-ratio:1;border-radius:50% 42% 55% 45%;background:var(--cream);z-index:-2;transform:rotate(-8deg)}
+.portrait-shape:after{content:"";position:absolute;inset:9%;border:1px solid rgba(112,47,50,.25);border-radius:50%}
+.portrait-wrap{width:min(72%,390px);aspect-ratio:1;border-radius:50%;overflow:hidden;border:9px solid var(--white);box-shadow:0 24px 65px rgba(81,51,41,.13)}
+.portrait-wrap img{width:100%;height:100%;object-fit:cover}
+.portrait-signature{position:absolute;right:1%;bottom:15%;display:flex;flex-direction:column;padding:14px 18px;background:var(--wine);color:var(--white)}
+.portrait-signature strong{font:italic 400 1.5rem "DM Serif Display",serif;color:var(--cream)}
+.portrait-signature span{margin-top:4px;font-size:.52rem;letter-spacing:.1em;text-transform:uppercase}
+@media(max-width:900px){.portrait-hero{min-height:540px}.portrait-shape{width:min(70vw,500px)}}
+@media(max-width:760px){.portrait-hero{min-height:470px}.portrait-shape{width:88vw}.portrait-wrap{width:min(72vw,330px);border-width:7px}.portrait-signature{right:2%;bottom:10%}}
