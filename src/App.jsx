@@ -79,7 +79,7 @@ export default function App() {
 
       <section className="sport section" id="esporte">
         <Reveal className="sport-signature"><span>corpo</span><strong>movimento</strong><span>presença</span><div className="sport-line"/></Reveal>
-        <Reveal className="section-copy"><p className="eyebrow">Psicologia & esporte</p><h2>Duas partes de uma mesma <em>trajetória.</em></h2><p>O esporte faz parte da minha vida desde a infância. No fim de 2023, esse vínculo ganhou uma nova direção profissional com o início da minha pós-graduação em Psicologia do Esporte pelo Futebol Interativo.</p><p>Essa formação aproxima a experiência com o esporte e o olhar construído na psicologia.</p></Reveal>
+        <Reveal className="section-copy"><p className="eyebrow">Psicologia do esporte</p><h2>Psicologia e esporte em uma mesma <em>trajetória.</em></h2><p>A Psicologia do Esporte é uma área da Psicologia dedicada a compreender os aspectos psicológicos presentes na prática esportiva e na relação das pessoas com o esporte. Ela considera, entre outros elementos, emoções, motivação, concentração, confiança, relações e as experiências vividas nesse contexto.</p><p>O trabalho psicológico nesse campo busca compreender o atleta e as demais pessoas envolvidas no esporte de forma ampla, considerando tanto as demandas da prática esportiva quanto sua experiência, seu contexto e suas relações.</p><p>O esporte faz parte da minha vida desde a infância. No fim de 2023, esse vínculo ganhou uma nova direção profissional com o início da minha pós-graduação em Psicologia do Esporte pelo Futebol Interativo.</p><p>Essa formação aproxima minha experiência com o esporte do olhar que venho construindo na Psicologia.</p></Reveal>
       </section>
 
       <section className="about" id="sobre">
