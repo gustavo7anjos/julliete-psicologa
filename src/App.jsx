@@ -29,7 +29,7 @@ export default function App() {
       <nav className={menu ? "nav open" : "nav"}>
         <a href="#psicoterapia" onClick={()=>setMenu(false)}>Psicoterapia</a>
         <a href="#gestalt" onClick={()=>setMenu(false)}>Gestalt-terapia</a>
-        <a href="#esporte" onClick={()=>setMenu(false)}>Esporte</a>
+        <a href="#esporte" onClick={()=>setMenu(false)}>Psicologia do esporte</a>
         <a href="#sobre" onClick={()=>setMenu(false)}>Quem sou eu</a>
         <a className="nav-contact" href={whatsapp} target="_blank" rel="noreferrer">Conversar <ArrowRight size={14}/></a>
       </nav>
