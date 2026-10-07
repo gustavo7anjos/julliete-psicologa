@@ -107,3 +107,13 @@ footer{padding:38px max(24px,calc((100vw - 1160px)/2)) 25px;display:grid;grid-te
 .reflection-main,.sport-signature:after,.portrait-frame:before{filter:saturate(1.08)}
 @media(min-width:901px){.nav a:not(.nav-contact){position:relative}.nav a:not(.nav-contact):after{content:"";position:absolute;left:0;right:100%;bottom:-7px;height:1px;background:var(--rust);transition:right .25s ease}.nav a:not(.nav-contact):hover:after{right:0}}
 @media(max-width:760px){.site-header{height:68px}.nav{inset:68px 0 auto;font-size:.8rem}.brand-copy strong{font-size:1.3rem}.eyebrow{font-size:.64rem}}
+
+
+/* Original wordmark proportions + compact mobile specialties */
+.brand-copy strong{font-family:"DM Serif Display",serif;font-size:1.75rem;font-weight:400;letter-spacing:-1px;text-transform:none}
+.footer-brand .brand-copy strong{font-family:"DM Serif Display",serif;letter-spacing:-1px;text-transform:none}
+@media(max-width:760px){
+  .brand-copy strong{font-size:1.45rem}
+  .hero .eyebrow{font-size:.55rem;letter-spacing:.105em;white-space:nowrap}
+}
+@media(max-width:390px){.hero .eyebrow{font-size:.51rem;letter-spacing:.08em}}
